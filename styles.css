@@ -8,12 +8,14 @@ a:focus-visible{outline:3px solid #bb7b00;outline-offset:5px}
 .skip-link{position:absolute;top:-100px;left:20px;padding:12px;background:var(--yellow);z-index:30}
 .skip-link:focus{top:12px}
 .site-header{position:sticky;top:0;z-index:20;background:var(--blue);color:var(--yellow)}
-.header-inner{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+.header-inner{min-height:78px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px 28px;padding:12px 0}
 .wordmark{display:inline-flex;align-items:baseline;gap:12px;white-space:nowrap;font-size:32px;font-weight:900;letter-spacing:-1.2px;line-height:1;color:var(--yellow)}
 .wordmark span{font-size:14px;font-weight:900;letter-spacing:1px}
 nav{display:flex;align-items:center;gap:30px;font-size:13px;font-weight:700}
 nav a{padding:12px 0}
 nav a:hover,.text-link:hover,footer a:hover{text-decoration:underline;text-underline-offset:5px}
+nav .nav-support{margin-left:auto;padding:10px 12px;border-radius:3px;background:var(--yellow);color:var(--navy);white-space:nowrap}
+nav .nav-support:hover{background:#fff;text-decoration:none}
 nav .nav-contact{padding:13px 17px;border:1px solid var(--blue);border-radius:3px}
 .nav-contact span{margin-left:12px}
 main>section+section{border-top:4px solid var(--blue)}
